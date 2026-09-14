@@ -1,0 +1,33 @@
+Algoritmo "teste_saida"
+
+Var
+base,altura,area,perimetro,diagonal:real
+Inicio
+
+     escreva("base do triangulo")
+     leia(base)
+     escreval("base da altura")
+     leia (altura)
+     escreval ("perimetro")
+     leia(perimetro)
+     escreval ("fala a area")
+     leia (area)
+     
+     area <- base*altura
+     
+       escreval("a area é ")
+       escreval (area)
+       
+     perimetro <- 2 * ( base + 2 * altura)
+     escreval ("e o perimetro é")
+     escreval (perimetro)
+     
+     escreval ("so pra tu saber, a altura que tu botou foi oq msm abestado?")
+     escreval (altura)
+     
+     diagonal <- RaizQ  ( base *base)
+     
+     escreval ("e a diagonalas é")
+     escreval (diagonal)
+     
+Fimalgoritmo
