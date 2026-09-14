@@ -1,0 +1,70 @@
+Algoritmo "NOTAS"
+
+Var
+
+   nota1,nota2,nota3:inteiro
+   notafinal:inteiro
+
+Inicio
+
+    escreval("Nota da unidade 1")
+    leia (nota1)
+    
+    escreval("Nota da unidade 2")
+    leia (nota2)
+    
+    escreval ("NOta da unidade 3")
+    leia (nota3)
+    
+    se nota1 < 6 entao
+    escreval("reprovado")
+    
+    senao
+    
+    se nota1 >=6 entao
+    escreval("Aprovado")
+
+    
+    se nota2< 6 entao
+    escreval("Reprovado")
+
+    senao
+    
+    se nota2>=6 entao
+    escreval("Aprovado")
+
+    
+    se nota3<6 entao
+    escreval("Reprovado")
+    
+    senao
+    
+    se nota3>=6 entao
+    escreval("Aprovado")
+    
+    notafinal<-nota1+nota2+nota3
+    
+    escreval("Sua nota final é")
+    escreval (notafinal)
+    
+    se notafinal < 18, entao
+    escreval("REPROVADO DE ANO")
+    
+    senao
+    
+    se notafinal >=, entao
+    escreval("APROVADO DE ANO")
+
+    
+    
+
+
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+Fimalgoritmo
+fimse
