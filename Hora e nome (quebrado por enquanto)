@@ -1,0 +1,56 @@
+Algoritmo "hora e nome"
+
+
+Var
+
+  hora:inteiro
+  nome :caractere
+
+Inicio
+
+  escreval ("Digite a hora: ")
+  leia (hora)
+  
+  se hora < 12 entao
+   escreval("bom dia")
+fimse
+
+  
+se (hora >=00) e (hora <24) entao
+escreval("boa tarde")
+fimse
+
+enquanto (hora) >24 faca
+escreval ("hora invalida!")
+
+escreval("Digite novamente")
+leia(hora)
+ // Aqui to tentando aprender a fazer loop :/
+enquanto (hora) >24 faca
+escreval("Cara só escreve a hora direito")
+escreval("Digite novamente pelo amor de deus")
+leia (hora)
+
+fimenquanto
+
+escreval("escreva teu nome!")
+leia (nome)
+ //Nome de um cara de um grupo
+se (nome ="soja") entao
+
+escreval("bom dia soja")
+
+senao
+ ou
+ 
+se (nome = "lucas") entao
+
+escreval("voce é fera")
+senao
+escreval("nao é legal")
+
+fimse
+
+fimse
+
+Fimalgoritmo
