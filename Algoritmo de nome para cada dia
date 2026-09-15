@@ -1,0 +1,58 @@
+Algoritmo "Dias e nome"
+
+Var
+    x:inteiro
+    dia:caractere
+
+
+Inicio
+
+
+escreval ("Fale numero dos dias")
+leia (x)
+
+      se x = 1 entao
+      dia <- "Domingo"
+      senao
+
+       se x= 2 entao
+       dia<-"Segunda"
+       senao
+
+       se x=3 entao
+       dia<-"Terça
+       senao
+       
+       se x >4 entao
+       dia<-"Acaba logo a semana"
+       senao
+       
+          fimse
+       fimse
+       fimse
+       fimse
+
+       
+
+      enquanto x>7 faca
+      escreval ("Perae amigo, ai ja quer dias demais na semana")
+      
+       escreval("Denovo fale o numero")
+       leia(x)
+
+       fimenquanto
+       
+
+
+
+
+
+       escreval("É")
+       escreval (dia)
+
+       
+       
+
+      
+
+Fimalgoritmo
