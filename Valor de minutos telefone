@@ -1,0 +1,37 @@
+Algoritmo "semnome"
+
+
+
+Var
+
+     minutos:inteiro
+valor:inteiro
+
+Inicio
+
+
+escreval("Digite quantos minutos de ligação você teve!:")
+  leia (minutos)
+  
+   valor <-50
+  se minutos < 100 entao
+  escreval ("O valor foi", valor)
+  fimse
+
+
+   
+  se  minutos >100 entao
+  
+  valor<-minutos + 2
+  
+  fimse
+  
+   escreval("O valor foi")
+
+
+   escreval (valor)
+
+   
+   
+
+Fimalgoritmo
