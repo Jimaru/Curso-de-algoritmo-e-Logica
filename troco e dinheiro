@@ -1,0 +1,48 @@
+Algoritmo "coisa de troco e dinheiro"
+
+Var
+    preco: real
+    produto: real
+    quantidade: real
+    troco:real
+    dinheiro:inteiro
+    total:real
+    resto:real
+    insuficiente:real
+Inicio
+
+    escreval ("Digite o valor do produto")
+    leia (preco)
+    
+    escreval("Quantas unidades? ")
+    leia (quantidade)
+    
+    
+    escreval ("Valor que irá pagar: ")
+    leia (dinheiro)
+    
+   se dinheiro >= ( preco * quantidade)  entao
+   troco <- dinheiro - preco * quantidade
+   
+   escreval ("Troco foi de ", troco)
+   
+   senao
+   resto <- preco * quantidade - dinheiro
+
+   escreval ("Dinheiro insuficiente, falta ", resto)
+
+     fimse
+
+     
+
+     
+     
+
+     
+     
+
+
+
+
+
+Fimalgoritmo
