@@ -1,0 +1,28 @@
+Algoritmo "medidade de diabetes"
+
+Var
+
+  glicose:real
+  classificacao:caractere
+  
+
+Inicio
+
+      escreval("Informe o nìvel de glicose!: ")
+      leia (glicose)
+      
+      se glicose <= 90 entao
+      escreval ("Nivel Normal, está tudo ok!")
+       senao
+        se glicose <=140 entao
+        escreval ("Nivel moderado, procure se cuidar")
+        senao
+        escreval ("Nivel alto, diabete ai")
+        fimse
+        fimse
+
+      
+      
+
+
+Fimalgoritmo
