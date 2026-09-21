@@ -1,0 +1,27 @@
+Algoritmo "lista de maior tempo recorde"
+
+Var
+
+  d1,d2,d3, maior: real
+  
+
+Inicio
+
+ escreval("Digite os tempos")
+ leia (d1)
+ leia (d2)
+ leia (d3)
+ 
+ se (d1 > d2)  e (d1> d3) entao
+ escreval ("O maior recorde foi", d1)
+ senao
+ se (d2 >d1) e (d2>d3) entao
+ escreval("O maior recorde foi", d2)
+ senao
+ escreval("O maior recorde foi", d3)
+ fimse
+ fimse
+
+
+
+Fimalgoritmo
