@@ -1,0 +1,51 @@
+Algoritmo "sistema de mercado simples"
+
+Var
+  produto,quantidade,valor:real
+
+Inicio
+
+
+escreval(" Código do produto   []  Preço do produto ")
+escreval("                     []                   ")
+escreval("---------------------[]--------------------------")
+escreval("           1         [] R$ 5.00               " )
+escreval("           2         [] R$ 3.50               ")
+escreval("           3         [] R$ 4.80                 ")
+escreval("           4         [] R$ 8.90                ")
+escreval("           5         [] R$ 7.32                   ")
+escreval("          ")
+
+
+
+
+ escreval(" Digite o codigo do produto que deseja! ")
+  leia (produto)
+  
+escreval(" quantas unidades? ")
+leia (quantidade)
+
+
+
+escolha produto
+
+
+caso 1
+   valor <- 5.0 * quantidade
+caso 2
+    valor <- 3.5 * quantidade
+caso 3
+    valor <- 4.8 * quantidade
+caso 4
+    valor <- 8.9 * quantidade
+caso 5
+     valor <- 7.32 * quantidade
+
+     fimescolha
+
+     escreval("Valor que irá pagar: R$",valor:4:2)
+
+
+
+
+Fimalgoritmo
