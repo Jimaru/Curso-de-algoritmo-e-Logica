@@ -1,0 +1,33 @@
+Algoritmo "codigo de numeros crescentes ou decrescentes"
+
+
+Var
+
+  x,y:real
+
+Inicio
+
+ escreval ("Digite dois numeros")
+ leia (x)
+ leia (y)
+ enquanto x<>y faca
+ 
+ se x>y entao
+ escreval ("Decrescente")
+ senao
+ escreval("Crescente")
+  fimse
+
+  escreval("Digite outros dois numeros")
+  leia(x)
+  leia(y)
+  
+
+
+  fimenquanto
+  
+
+
+
+
+Fimalgoritmo
