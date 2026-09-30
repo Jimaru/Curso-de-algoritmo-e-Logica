@@ -1,0 +1,19 @@
+Algoritmo "tabuada rapida"
+
+Var
+ Numero, i, p:inteiro
+
+
+Inicio
+
+     escreval("Qual tabuada deseja visualizar? ")
+     leia(Numero)
+     
+     para i de 1 ate 10 faca
+     
+     p <- Numero * i
+     
+     escreval( numero, " X",p)
+      fimpara
+
+Fimalgoritmo
