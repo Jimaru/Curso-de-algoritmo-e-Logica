@@ -8,7 +8,7 @@ Inicio
 
      escreval("Qual tabuada deseja visualizar? ")
      leia(Numero)
-     
+     // ainda estou pra aprende rmelhor sobre o 1 de 10
      para i de 1 ate 10 faca
      
      p <- Numero * i
