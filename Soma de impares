@@ -1,0 +1,43 @@
+Algoritmo "Soma de impares"
+
+Var
+
+ X,Y,i,troca,soma : inteiro
+
+Inicio
+
+        escreval("Digite dois numeros")
+        leia(X)
+        leia(Y)
+        
+        se X>Y entao
+        troca <- X
+        X <- Y
+        Y <- troca
+        
+        senao
+        
+        escreval("VALORES ERRADOS, COLOQUE EM DECRESCENTE!!!")
+        fimse
+
+        
+        soma <-0
+        
+        para i de x ate y faca
+
+        se i % 2<>0 entao
+        soma <- soma + i
+        
+        fimse
+        fimpara
+        
+
+      escreval ("A soma de impares é =", soma)
+        
+        
+        
+        
+        
+        
+        
+Fimalgoritmo
