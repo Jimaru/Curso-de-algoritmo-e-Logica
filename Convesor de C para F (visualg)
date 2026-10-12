@@ -1,0 +1,36 @@
+Algoritmo "semnome"
+
+Var
+
+   C, F: real
+   resp:caractere
+
+Inicio
+
+     escreval("Esse é um conversor de Celsius para Fahrenheit e vice-versa")
+
+
+    escreval("Digite a temperatura em Celsius")
+    leia (C)
+
+    F<- 9 * C / 5 + 32
+    escreval("A temperatura que seria em Fahrenheit é:", F:3:2)
+    
+    escreval("Deseja converter denovo? (S/N")
+    leia (resp)
+    
+    enquanto resp = "S" faca
+
+       escreval("Digite a temperatura em Celsius")
+    leia (C)
+
+    F<- 9 * C / 5 + 32
+    escreval("A temperatura que seria em Fahrenheit é:", F:3:2)
+
+     escreval("Deseja converter denovo? (S/N)")
+     leia(resp)
+      fimenquanto
+
+
+
+Fimalgoritmo
