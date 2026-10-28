@@ -1,0 +1,38 @@
+algoritmo "impar par"
+
+var
+ X,i,N:inteiro
+
+inicio
+
+escreval("Quantos numeros voce vai digitar? ")
+leia(N)
+
+para i de 1 ate N faca
+
+    escreva("Digite um numero")
+leia(X)
+
+se X = 0 entao
+escreval("Nulo")
+senao
+se x % 2 = 0 entao
+
+  se x < 0 entao
+    escreva("par Negativo")
+      senao
+        escreval("Par Positivo")
+        fimse
+
+    senao    
+      se x < 0 entao
+      escreval("Impar negativo")
+      senao
+      escreval("Impar positivo")
+
+      fimse
+    fimse
+fimse
+
+fimpara
+fimalgoritmo
