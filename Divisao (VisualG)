@@ -1,0 +1,28 @@
+algoritmo "divisao"
+
+var
+  N,i:inteiro
+  x,y,divisao:real
+
+inicio
+
+  escreval ("Quantos casos voce vai digitar???")
+  leia (N)
+
+  para i de 1 ate N faca
+
+      escreval("Entre com o numerador")
+      leia (x)
+
+      escreval("Entre com o denominador")
+      leia(y)
+
+
+      se y = 0 entao
+      escreval("DIVISAO IMPOSSIVEL")
+      senao
+          divisao <- x/y
+          escreval ("Divisao=", divisao)
+     fimse
+
+     fimpara
