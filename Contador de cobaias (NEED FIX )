@@ -1,0 +1,40 @@
+algoritmo "Primeiro Programa"
+
+var
+  N,i,qte,totalsapo,totalcoelho,totalrato,totalcobaia: inteiro
+  Pratos,Psapos,Pcoelhos
+  tip: caractere
+inicio
+
+ escreval ("Quantos casos de testes serao digitados?")
+ leia(N)
+
+ para i de 1 ate N faca
+ escreval("Numero de cobaias")
+    leia(qte)
+
+  escreval("Tipo de cobaia")
+  leia(tip)
+
+  se tip = "R"  entao
+
+  totalrato <- totalrato + qte
+  senao
+
+  se tip = "S" entao
+
+  totalsapo <- totalsapo + qte
+
+  senao 
+
+   totalcoelho <- totalcoelho + qte
+
+fimse
+fimse
+
+
+
+
+  fimpara
+
+fimalgoritmo
